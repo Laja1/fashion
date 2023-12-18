@@ -24,7 +24,7 @@ const c = require("../assets/c.png");
 const Refresh = require("../assets/catgory/Refresh.png");
 
 import Swiper from "react-native-swiper";
-const Product = () => {
+const Product = ({ navigation }) => {
   return (
     <SafeAreaView>
       <ScrollView>
@@ -387,7 +387,7 @@ const Product = () => {
           <TouchableOpacity>
             <Text>Contact</Text>
           </TouchableOpacity>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.jumpTo("Blog")}>
             <Text>Blog</Text>
           </TouchableOpacity>
         </View>

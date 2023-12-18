@@ -13,7 +13,7 @@ const im20 = require("../assets/im20.png");
 const Group29 = require("../assets/Group29.png");
 const Devider = require("../assets/Devider.png");
 
-function Collection() {
+function Collection({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
@@ -193,7 +193,7 @@ function Collection() {
             <TouchableOpacity>
               <Text>Contact</Text>
             </TouchableOpacity>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.jumpTo("Blog")}>
               <Text>Blog</Text>
             </TouchableOpacity>
           </View>

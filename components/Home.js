@@ -262,7 +262,7 @@ function Home({ navigation }) {
         <TouchableOpacity>
           <Text>Contact</Text>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.jumpTo("Blog")}>
           <Text>Blog</Text>
         </TouchableOpacity>
       </View>

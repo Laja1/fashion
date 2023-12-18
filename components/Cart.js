@@ -23,7 +23,9 @@ function Cart() {
   return (
     <SafeAreaView>
       <View>
-        <Text>CART</Text>
+        <Text style={{ paddingHorizontal: 20, marginTop: 20, fontSize: 20 }}>
+          CART
+        </Text>
         <View style={{ flexDirection: "row", padding: 20 }}>
           <Image source={fra} />
           <View
@@ -64,7 +66,7 @@ function Cart() {
             <Text style={styles.price}>$120</Text>
           </View>
         </View>
-        <Text style={{ color: "grey", alignSelf: "center", paddingTop: 120 }}>
+        <Text style={{ color: "grey", alignSelf: "center", paddingTop: 100 }}>
           _______________________________________________
         </Text>
         <View
@@ -118,7 +120,7 @@ const styles = StyleSheet.create({
   },
   buttonBack: {
     backgroundColor: "black",
-    padding: 25,
+    padding: 20,
     borderRadius: 35,
     alignSelf: "center",
     width: 350,

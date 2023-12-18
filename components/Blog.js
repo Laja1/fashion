@@ -17,7 +17,7 @@ const Re45 = require("../assets/Re45.png");
 const Re46 = require("../assets/Re46.png");
 const Re444 = require("../assets/Re444.png");
 
-function Blog() {
+function Blog({ navigation }) {
   return (
     <SafeAreaView>
       <ScrollView>
@@ -169,7 +169,7 @@ function Blog() {
           <TouchableOpacity>
             <Text>Contact</Text>
           </TouchableOpacity>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.jumpTo("Blog")}>
             <Text>Blog</Text>
           </TouchableOpacity>
         </View>
