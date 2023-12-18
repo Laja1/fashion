@@ -8,6 +8,7 @@ import { store } from "./store";
 import Product from "./components/Product";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
+import Blog from "./components/Blog";
 import Collection from "./components/Collection";
 
 import Category from "./components/Category";
@@ -39,6 +40,13 @@ export const DrawerNav = () => {
           drawerContentStyle: {
             backgroundColor: "#fff",
           },
+        }}
+      />
+      <Drawer.Screen
+        name="Blog"
+        component={Blog}
+        options={{
+          headerTitle: "OPEN ✩ FASHION",
         }}
       />
       <Drawer.Screen
