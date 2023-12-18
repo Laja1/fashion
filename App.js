@@ -8,6 +8,7 @@ import { store } from "./store";
 import Product from "./components/Product";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
+import Collection from "./components/Collection";
 import Menu from "./components/Menu";
 
 import Category from "./components/Category";
@@ -22,7 +23,7 @@ export const DrawerNav = () => {
           backgroundColor: "#e7eaef",
         },
         drawerStyle: {
-          backgroundColor: "green",
+          backgroundColor: "ffffff",
           width: 240,
         },
       }}
@@ -41,7 +42,19 @@ export const DrawerNav = () => {
           },
         }}
       />
-      <Drawer.Screen name="Menu" component={Menu} />
+      <Drawer.Screen
+        name="Collection"
+        component={Collection}
+        options={{
+          headerTitle: "Open ✩ Fashion",
+          headerTitleStyle: {
+            color: "white",
+          },
+          headerStyle: {
+            backgroundColor: "black",
+          },
+        }}
+      />
       <Drawer.Screen name="Cart" component={Cart} />
       <Drawer.Screen name="Category" component={Category} />
     </Drawer.Navigator>
