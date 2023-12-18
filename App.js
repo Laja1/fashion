@@ -32,9 +32,9 @@ export const DrawerNav = () => {
         name="Home"
         component={Home}
         options={{
-          title: "OPEN FASHION",
+          title: "OPEN ✩ FASHION",
 
-          drawerLabel: "Home Label",
+          drawerLabel: "Home",
           drawerActiveTintColor: "#333",
           drawerActiveBackgroundColor: "lightblue",
           drawerContentStyle: {

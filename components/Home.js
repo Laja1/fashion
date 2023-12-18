@@ -128,7 +128,12 @@ function Home({ navigation }) {
         style={{ alignSelf: "center", width: 394, height: 240 }}
         source={g}
       />
+      <Text style={styles.textBehind2}>10</Text>
+      <Text style={styles.textBehind}>October</Text>
+      <Text style={styles.textBehind3}>COLLECTION</Text>
       <Image style={styles.image3} source={f} />
+      <Text style={styles.textBehind4}>Autum</Text>
+      <Text style={styles.textBehind5}>COLLECTION</Text>
       <Image style={styles.image4} source={Video} />
       <Image style={{ alignSelf: "center", marginTop: 40 }} source={Just} />
       <Image style={{ alignSelf: "center", marginTop: 10 }} source={Devider} />
@@ -300,6 +305,54 @@ const styles = StyleSheet.create({
   image1: {
     paddingHorizontal: 200,
     marginTop: 30,
+  },
+  textBehind2: {
+    position: "absolute",
+
+    color: "#00000070",
+    paddingTop: 1570,
+    marginLeft: 200,
+    fontSize: 157,
+    fontWeight: "bold",
+    fontStyle: "italic",
+  },
+
+  textBehind4: {
+    position: "absolute",
+
+    color: "#00000090",
+    paddingTop: 1820,
+    marginLeft: 150,
+    fontSize: 40,
+
+    fontStyle: "italic",
+  },
+  textBehind5: {
+    position: "absolute",
+
+    color: "#00000090",
+    paddingTop: 1860,
+    marginLeft: 170,
+    fontSize: 13,
+  },
+
+  textBehind: {
+    position: "absolute",
+
+    color: "white",
+    paddingTop: 1635,
+    marginLeft: 210,
+    fontSize: 40,
+    fontWeight: "bold",
+    fontStyle: "italic",
+  },
+  textBehind3: {
+    position: "absolute",
+
+    color: "white",
+    paddingTop: 1675,
+    marginLeft: 230,
+    fontSize: 20,
   },
   card: {
     marginTop: 30,
