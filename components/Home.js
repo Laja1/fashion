@@ -321,7 +321,7 @@ const styles = StyleSheet.create({
     position: "absolute",
 
     color: "#00000090",
-    paddingTop: 1820,
+    paddingTop: 1860,
     marginLeft: 150,
     fontSize: 40,
 
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     position: "absolute",
 
     color: "#00000090",
-    paddingTop: 1860,
+    paddingTop: 1900,
     marginLeft: 170,
     fontSize: 13,
   },
