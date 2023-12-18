@@ -9,7 +9,6 @@ import Product from "./components/Product";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
 import Collection from "./components/Collection";
-import Menu from "./components/Menu";
 
 import Category from "./components/Category";
 const Stack = createNativeStackNavigator();

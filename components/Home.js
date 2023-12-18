@@ -362,8 +362,11 @@ const styles = StyleSheet.create({
   },
   card3: {},
   hometext: {
+    color: "#00000080",
+    fontSize: 40,
+    fontWeight: "bold",
     marginTop: -350,
-    fontSize: 29,
+    fontStyle: "italic",
     paddingHorizontal: 20,
   },
   text: {
