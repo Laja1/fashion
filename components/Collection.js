@@ -57,7 +57,7 @@ function Collection({ navigation }) {
               style={{
                 color: "white",
                 fontWeight: "bold",
-                fontSize: "14",
+                fontSize: 14,
               }}
             >
               01
@@ -65,7 +65,7 @@ function Collection({ navigation }) {
             <Text
               style={{
                 marginTop: -5,
-                color: "grey",
+                color: "#88888850",
               }}
             >
               ____________________
@@ -75,7 +75,7 @@ function Collection({ navigation }) {
               style={{
                 color: "white",
 
-                fontSize: "14",
+                fontSize: 14,
               }}
             >
               OCTOBER COLLECTION
@@ -105,7 +105,7 @@ function Collection({ navigation }) {
           <Text
             style={{
               marginTop: -5,
-              color: "grey",
+              color: "#88888850",
             }}
           >
             ____________________
@@ -118,7 +118,7 @@ function Collection({ navigation }) {
               fontSize: "14",
             }}
           >
-            OCTOBER COLLECTION
+            BLACK COLLECTION
           </Text>
         </View>
         <Image style={styles.image1} source={im22} />
@@ -143,7 +143,7 @@ function Collection({ navigation }) {
           <Text
             style={{
               marginTop: -5,
-              color: "grey",
+              color: "#88888850",
             }}
           >
             ____________________
@@ -156,7 +156,7 @@ function Collection({ navigation }) {
               fontSize: "14",
             }}
           >
-            OCTOBER COLLECTION
+            HAE BY HAEKIM
           </Text>
         </View>
         <View style={{ backgroundColor: "#FFFFFF" }}>
