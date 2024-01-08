@@ -8,6 +8,7 @@ import {
   SafeAreaView,
 } from "react-native";
 const im21 = require("../assets/im21.png");
+
 const im22 = require("../assets/im22.png");
 const im20 = require("../assets/im20.png");
 const Group29 = require("../assets/Group29.png");

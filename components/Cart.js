@@ -7,9 +7,9 @@ import {
   SafeAreaView,
   Image,
 } from "react-native";
-import { useSelector, useDispatch } from "react-redux";
+// import { useSelector, useDispatch } from "react-redux";
 
-import { addToCart, selectCartItems } from "../store";
+// import { addToCart, selectCartItems } from "../store";
 const fra = require("../assets/Fra.png");
 const bag = require("../assets/bag.png");
 const fra18 = require("../assets/Fra18.png");

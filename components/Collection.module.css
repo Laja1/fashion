@@ -1,0 +1,57 @@
+/* 
+  .container {
+    flex: 1;
+    backgroundColor: "black";
+    color: "white",
+  }
+  textBehind {
+    position: "absolute";
+    alignSelf: "center";
+    color: "#ffffff50";
+    paddingTop: 5;
+    fontSize: 150;
+    fontWeight: "bold";
+    fontStyle: "italic";
+  }
+  .textBehind2 {
+    position: "absolute",
+
+    color: "#00000070",
+    paddingTop: 300,
+    marginLeft: 220,
+    fontSize: 150,
+    fontWeight: "bold",
+    fontStyle: "italic",
+  }
+
+  .image1{
+    width: 343;
+    height: 456.62,
+    alignSelf: "center",
+  }
+  text {
+    paddingHorizontal: 30;
+
+    color: "#fff",
+
+    font-size: 48;
+    font-style: normal;
+    font-weight: 700;
+    
+  }
+
+   */
+
+     .container {
+       flex-flow: row;
+       justify-content: space-evenly;
+       align-items: center;
+       background-color: '#6804CD';
+       width: '100%';
+       height: 30;
+     }
+  
+     .text {
+       color: '#ffffff';
+       font-weight: bold;
+     }

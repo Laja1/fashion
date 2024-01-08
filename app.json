@@ -1,6 +1,10 @@
 {
   "expo": {
     "name": "fashion",
+     "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "css"]
+    },
     "slug": "fashion",
     "version": "1.0.0",
     "orientation": "portrait",

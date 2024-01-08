@@ -3,12 +3,13 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { Provider } from "react-redux";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { store } from "./store";
 
 import Product from "./components/Product";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
 import Blog from "./components/Blog";
+import Api from "./components/Api";
+import Col from "./components/Col";
 import Collection from "./components/Collection";
 
 import Category from "./components/Category";
@@ -64,6 +65,8 @@ export const DrawerNav = () => {
       />
       <Drawer.Screen name="Cart" component={Cart} />
       <Drawer.Screen name="Category" component={Category} />
+      <Drawer.Screen name="Col" component={Col} />
+      <Drawer.Screen name="Api" component={Api} />
     </Drawer.Navigator>
   );
 };

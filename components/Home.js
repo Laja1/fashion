@@ -36,13 +36,9 @@ function Home({ navigation }) {
     <ScrollView style={styles.container}>
       <Image style={styles.image1} source={home} />
 
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.jumpTo("Category")}>
         <View style={styles.button}>
-          <Button
-            color="white"
-            title="EXPLORE CATEGORY"
-            onPress={() => navigation.jumpTo("Category")}
-          />
+          <Button color="white" title="EXPLORE CATEGORY" />
         </View>
       </TouchableOpacity>
       <Text style={styles.hometext}>
